@@ -33,6 +33,7 @@
 - **Relatório para o provedor.** Mede a conexão por 1 minuto e gera um relatório pronto para mandar ao suporte da sua operadora.
 - **Teste de bufferbloat.** Mede quanto o ping sobe quando alguém está usando a internet.
 - **Tema escuro, ícone perto do relógio e opção de iniciar com o Windows.**
+- **Atualização com um clique.** O GamePing avisa quando sai uma versão nova, baixa e confere o instalador antes de abrir.
 
 ## Instalação
 
@@ -55,7 +56,8 @@ Todas as otimizações guardam o valor original antes de mudar qualquer coisa. V
 O GamePing não tem conta, anúncios nem telemetria. Histórico, configurações e relatórios ficam só no seu PC. As únicas conexões que ele faz além dos pings são:
 
 - a lista pública de regiões da Valve (`api.steampowered.com`), para a aba *Regiões (CS2)*;
-- um download de teste da Cloudflare (`speed.cloudflare.com`), só quando você roda o teste de bufferbloat.
+- um download de teste da Cloudflare (`speed.cloudflare.com`), só quando você roda o teste de bufferbloat;
+- a página de versões deste repositório (`api.github.com`), no máximo uma vez por dia, para avisar quando sai uma versão nova. Dá para desligar em *Opções → Atualizações*.
 
 ## Desinstalar
 
